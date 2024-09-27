@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+	background-color:#f6f6f6;
+	align-items:center;
+	height:100vh;
+	margin:0;
+}
+.container{
+	display:flex;
+	gap:40px;
+}
+.right {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+form button {
+  background-color: #1877f2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+form button:hover {
+  background-color: #165fc1;
+}
+
+.signup {
+  background-color: #42b72a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.signup:hover {
+  background-color: #36a420;
+}
+
+a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
